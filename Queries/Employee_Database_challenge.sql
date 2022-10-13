@@ -45,8 +45,9 @@ title Varchar(50) Not Null,
 from_date date Not Null,
 to_date date Not Null,
 foreign key (emp_no) References employees(emp_no),
-Primary key(emp_no)); 
+Primary key(emp_no));
 
+-- (Deliverable 1)
 select e.emp_no, e.first_name, e.last_name, ti.title, ti.from_date, ti.to_date into retirement_info
 from employees as e 
 inner join titles as ti
@@ -64,7 +65,7 @@ select count(emp_no) as "total_employees", title from unique_titles
 group by title
 order by total_employees desc;
 
---Finding the mentorship eligibility 
+-- (Deliverable 2) Finding the mentorship eligibility 
 select distinct on(emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, de.from_date, de.to_date, ti.title into mentorship_eligibility
 from employees as e
 inner join dept_emp as de
