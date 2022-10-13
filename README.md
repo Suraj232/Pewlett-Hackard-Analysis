@@ -16,3 +16,6 @@ The main purpose of this analysis is to analyze the data for Pewlett Hackard to 
 - The list of candidates eligible to be the member of the mentorship borad is shown below. 
 - Afetr performing the analysis, company have several candidates who can be in the commity for their respective department. This will ensure that company wont loose thier expert employees and can use them as a resource to train and guide the new employees.
 <img width="605" alt="Mentorship_eligibility" src="https://user-images.githubusercontent.com/110261837/195488827-31db628a-97e6-45d4-a14d-72ba005b7c9f.png">
+
+# Summary
+- From the achieved data it is clear that Pewlett Hackard has around 70% of thier employees getting ready to retire. A massive hiring is required to fill the void in workforce, so that company continues to perform at the level its expected too. Once the senior positioned employees retire they will be shifted to mentorship program so that their expertise can be used to guide the upcoming employees in their positions.
